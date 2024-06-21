@@ -36,8 +36,6 @@ const Rule = ({
 
 // An overlay component that will display the limits of the team
 const Limits = () => {
-  const team = useAppSelector((state) => state.players.selectedPlayers);
-
   return (
     <div style={styles.container}>
       <Rule
