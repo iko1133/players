@@ -45,7 +45,7 @@ const Limits = () => {
         checkerFunction={checkForGoalKeeper}
       />
       <Rule
-        texts={["At least 1 player in a defensive position ('Back positions')"]}
+        texts={["At least 4 player in a defensive position ('Back positions')"]}
         checkerFunction={checkForDefenders}
       />
       <Rule
